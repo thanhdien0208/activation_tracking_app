@@ -354,6 +354,7 @@ html {
 .main .form-login .input-user:focus {
     outline: 1px solid #fff;
     box-shadow: 1px 1px 5px #fff;
+    border-radius: 50px;
 }
 
 .main .form-login .input-password {
@@ -378,6 +379,7 @@ html {
 .main .form-login .input-password:focus {
     outline: 1px solid #05F22B;
     box-shadow: 1px 1px 5px #7DFF92;
+    border-radius: 50px;
 }
 
 .main .form-login .input-submit {

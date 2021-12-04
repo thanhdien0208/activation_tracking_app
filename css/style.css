@@ -50,10 +50,6 @@ html {
     --shadow: linear-gradient(92.33deg, #95DAA4 8.23%, #F1F1F1 42%, #7DFF92 67.44%, #05F22B 92.44%);
 }
 
-.space {
-    margin-bottom: 5px;
-}
-
 .btn {
     display: inline-block;
     /* min-width: 120px; */
@@ -592,6 +588,11 @@ html {
 }
 
 @media screen and (max-width: 512px) {
+
+    .header {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
 
     .footer .footer-content {
         display: block;

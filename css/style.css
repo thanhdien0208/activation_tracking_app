@@ -404,6 +404,7 @@ html {
     outline: 1px solid #fff;
     box-shadow: 1px 1px 5px #fff;
     border-radius: 50px;
+    border: 1px solid #fff;
 }
 
 .main .form-login .input-password {
@@ -429,6 +430,7 @@ html {
     outline: 1px solid #05F22B;
     box-shadow: 1px 1px 5px #7DFF92;
     border-radius: 50px;
+    border: 1px solid #05F22B;
 }
 
 .main .form-login .input-submit {

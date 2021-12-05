@@ -863,6 +863,12 @@ select + select {
     /* height: 200px; */
 }
 
+.create-finish-outlet__content .create-finish-outlet_success .outlet-name {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
 .create-finish-outlet__content .create-finish-outlet_success img {
     width: 100px;
     object-fit: cover;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACTIVATION TRACKING APP</title>
+    <title>Home Outlet</title>
 
     <link rel="stylesheet" href="./themify-icons.css">
     <!-- CSS -->
@@ -31,28 +31,54 @@
                             <i class="ti-search"></i>
                         </div>
                         <div class="filter-box">
-                            <select id="filter-location">
-                                <option>Khu vực</option>
-                                <option value="Thành phố">Thành phố</option>
-                                <option value="Quận">Quận</option>
-                                <option value="Huyện">Huyện</option>
+                            
+                            <select name="calc_shipping_provinces" required="">
+                                <option value="">Tỉnh / Thành phố</option>
                             </select>
+                            <select name="calc_shipping_district" required="">
+                            <option value="">Quận / Huyện</option>
+                            </select>
+                            <input class="billing_address_1" name="" type="hidden" value="">
+                            <input class="billing_address_2" name="" type="hidden" value="">
                         </div>
                     </div>
                     <div class="main-table">
-                        <a href="#">Outlet 1</a>
-                    </div>
-                    <div class="main-table">
-                        <a href="#">Outlet 2</a>
-                    </div>
-                    <div class="main-table">
-                        <a href="#">Outlet 3</a>
-                    </div>
-                    <div class="main-table">
-                        <a href="#">Outlet 4</a>
-                    </div>
-                    <div class="main-table">
-                        <a href="#">Outlet 5</a>
+                        <div class="table-list">
+                            <a href="#">Outlet 1</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 2</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 3</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 4</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 5</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 5</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 5</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 5</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 5</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 5</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 5</a>
+                        </div>
+                        <div class="table-list">
+                            <a href="#">Outlet 5</a>
+                        </div>
                     </div>
                 </div>
 
@@ -60,6 +86,9 @@
     </div>
 
     <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/districts.min.js"></script>
+    <script src="./js/filter.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>

@@ -401,7 +401,7 @@ html {
 }
 
 .main .form-login .input-user:focus {
-    outline: 1px solid #fff;
+    outline: none;
     box-shadow: 1px 1px 5px #fff;
     border-radius: 50px;
     border: 1px solid #fff;
@@ -427,7 +427,7 @@ html {
 }
 
 .main .form-login .input-password:focus {
-    outline: 1px solid #05F22B;
+    outline: none;
     box-shadow: 1px 1px 5px #7DFF92;
     border-radius: 50px;
     border: 1px solid #05F22B;

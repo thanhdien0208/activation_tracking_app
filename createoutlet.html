@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Report</title>
+    <title>Outlet Detail</title>
 
     <link rel="stylesheet" href="./themify-icons.css">
     <!-- CSS -->
@@ -27,18 +27,17 @@
                 </div>
                 <!-- Main -->
                 <div class="row main">
-                    <div class="box-report">
-                        <div class="box-center">
-                            <button type="button"><a href="#">Báo cáo POSM</a></button>
-                        </div>
-                        <div class="box-center">
-                            <button type="button" disabled><a href="#">Báo cáo quà tặng</a></button>
-                        </div>
-                        <div class="box-center">
-                            <button type="button" disabled><a href="#">Báo cáo bán hàng</a></button>
-                        </div>
-                        <div class="box-center">
-                            <button type="button" disabled><a href="#">Báo cáo cuối ngày</a></button>
+                    <div class="main-top">
+                        <div class="create-outlet__content">
+                            <div class="create-outlet_body">
+                                <img src="./img/logo-hnk.png" alt="logo">
+                            </div>
+                    
+                            <div class="create-outlet__footer">
+                                <a href="./createinfooutlet.html" type="button" class="btn btn-add">
+                                    Tạo outlet mới <i class="ti-plus"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -47,6 +46,9 @@
     </div>
 
     <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/districts.min.js"></script>
+    <script src="./js/filter.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>

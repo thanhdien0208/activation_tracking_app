@@ -1,1 +1,0 @@
-# activation_tracking_app

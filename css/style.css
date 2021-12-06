@@ -694,7 +694,7 @@ select + select {
 .create-outlet__content {
     border-radius: 4px;
     position: relative;
-    width: 300px;
+    width: 90%;
     max-width: 100%;
     background: #fff;
     padding: 1em 2em;
@@ -736,7 +736,7 @@ select + select {
 .create-info-outlet__content {
     border-radius: 10px;
     position: relative;
-    width: 300px;
+    width: 90%;
     max-width: 100%;
     background: #fff;
     padding: 1em 2em;
@@ -758,8 +758,8 @@ select + select {
 }
 
 .create-info-outlet_body .form-create-info .input-create-info {
-    margin-bottom: 10px;
-    width: 240px;
+    margin-bottom: 20px;
+    width: 300px;
 }
 .create-info-outlet_body .form-create-info .input-create-info input {
     width: 100%;
@@ -776,7 +776,7 @@ select + select {
 .create-info-outlet__footer {
     margin-top: 2rem;
     text-align: center;
-    width: 240px;
+    width: 300px;
 }
 
 .create-info-outlet__footer .btn-confirm {
@@ -801,7 +801,7 @@ select + select {
 .create-finish-outlet__content {
     border-radius: 10px;
     position: relative;
-    width: 350px;
+    width: 90%;
     max-width: 100%;
     background: #fff;
     padding: 1em 2em;

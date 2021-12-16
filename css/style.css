@@ -447,7 +447,6 @@ select, option, input, button {
     background: var(--bg-btn);
     border: 2px solid #fff;
     box-shadow: 1px 1px 5px #fff;
-    text-transform: capitalize;
     border-radius: 50px;
     margin-bottom: 20px;
     font-weight: 600;
@@ -474,9 +473,17 @@ select, option, input, button {
     background: transparent;
     border: 2px solid #05F22B;
     box-shadow: 1px 1px 5px #7DFF92;
-    text-transform: capitalize;
     border-radius: 50px;
     font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+
+.main .form-login .box-center .field-icon {
+    float: right;
+    margin-right: 15px;
+    margin-top: -32px;
+    position: relative;
+    z-index: 2;
     color: #fff;
 }
 

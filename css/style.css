@@ -1009,7 +1009,7 @@ select + select {
 
 .container-camera .btn-submit .send-img{
     position: absolute;
-    top: 1%;
+    bottom: -25%;
     right: 15%;
     margin-top: 10px !important;
 }
@@ -1019,7 +1019,6 @@ select + select {
     transform: scale(3);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
-
 
 /* =============== */
 

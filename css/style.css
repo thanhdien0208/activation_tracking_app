@@ -1071,7 +1071,7 @@ select + select {
 
 .container-camera .btn-submit .send-img{
     position: absolute;
-    top: 0%;
+    bottom: -12%;
     right: 15%;
     margin-top: 8px !important;
 }

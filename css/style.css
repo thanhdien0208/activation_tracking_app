@@ -394,14 +394,16 @@ select, option, input, button {
 }
 
 .header .dropdown-menu {
-    min-width: 150px; /* Set width of the dropdown */
-    height: 50px;
+    width: 100%; /* Set width of the dropdown */
+    height: 50vh;
     background: #fff;
     display: none;
     position: absolute;
     z-index: 999;
     right: 0;
-    top: 55%;
+    top: 0;
+    left: 0;
+    bottom: 0;
     list-style-type: none;
     margin-top: 5px;
     border: 1px solid #1A5D1F;
@@ -846,17 +848,21 @@ select + select {
     margin-bottom: 20px;
     width: 300px;
 }
-.create-info-outlet_body .form-create-info .input-create-info input {
+.create-info-outlet_body .form-create-info .input-create-info input,
+.create-info-outlet_body .form-create-info .input-create-info select {
     width: 100%;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #1F6C2F;
 }
 
-.create-info-outlet_body .form-create-info .input-create-info input:focus {
+.create-info-outlet_body .form-create-info .input-create-info input:focus,
+.create-info-outlet_body .form-create-info .input-create-info select:focus {
     border: 1px solid #1F6C2F;
     outline: 1px solid #1F6C2F;
 }
+
+
 
 .create-info-outlet__footer {
     margin-top: 2rem;
@@ -877,6 +883,7 @@ select + select {
     text-align: center;
     font-size: 20px;
 }
+
 /* Create finish Outlet */
 
 .create-finish-outlet__content {
@@ -1064,9 +1071,9 @@ select + select {
 
 .container-camera .btn-submit .send-img{
     position: absolute;
-    bottom: -25%;
+    top: 0%;
     right: 15%;
-    margin-top: 10px !important;
+    margin-top: 8px !important;
 }
 
 

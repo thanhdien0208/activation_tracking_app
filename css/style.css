@@ -694,16 +694,20 @@ select + select {
     border: 1px solid #1F6C2F;
     border-radius: 10px;
     box-shadow: 1px 1px 3px #1F6C2F;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
     background: #eee;
 }
 
 .homeoutlet .main .main-table .table-list a {
     text-decoration: none;
     color: #111;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
+}
+
+.homeoutlet .main .main-table .table-list  p {
+    font-size: 15px;
 }
 
 .homeoutlet .main .main-table .table-details {

@@ -580,6 +580,7 @@ select, option, input, button {
     padding: 10px;
     width: 100%;
     background: #1F6C2F;
+    border: 1px solid #1F6C2F;
     border-radius: 5px;
     outline: 0;
     border: 0;
@@ -590,12 +591,20 @@ select, option, input, button {
 .homeoutlet .main .main-top .search-box input::placeholder {
     color: #fff;
 }
-.homeoutlet .main .main-top .search-box i {
+.homeoutlet .main .main-top .search-box input:focus {
+    border-radius: 5px;
+    border: 1px solid #1F6C2F;
+    outline: 1px solid #1F6C2F;
+}
+.homeoutlet .main .main-top .search-box button {
     color: #fff;
     position: absolute;
     right: 5px;
     top: 10px;
     cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
 }
 
 .homeoutlet .main .main-top .filter-box {

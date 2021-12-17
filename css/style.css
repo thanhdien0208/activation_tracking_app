@@ -1286,5 +1286,19 @@ select + select {
     .container-camera .main {
         margin-bottom: 20px;
     }
+
+    .create-info-outlet_body .form-create-info{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .create-info-outlet_body .form-create-info .input-create-info {
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    .create-info-outlet__footer .btn-confirm {
+        margin-left: -10%;
+    }
 }
 

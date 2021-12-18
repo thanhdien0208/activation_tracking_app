@@ -1065,14 +1065,13 @@ select + select {
 
 /* =====Zoom IMG===== */
 
-.container-camera input[type=checkbox] {
+/* .container-camera input[type=checkbox] {
     display: none;
-}
+} */
 
 .container-camera .container-img {
-    /* position:absolute;
-    bottom: -100%;
-    left: 0%; */
+    position:fixed;
+    bottom: 0;
     width: 100%;
     text-align: center;
     margin-top: 80px;
@@ -1085,7 +1084,7 @@ select + select {
     object-fit: cover;
     /* margin-left: 5px; */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .container-camera .btn-submit .send-img{

@@ -1016,7 +1016,7 @@ select + select {
     /* font-size: 25px; */
     position: absolute;
     bottom: -12%;
-    left: 5%;
+    left: 10%;
 }
 
 .container-camera #video {
@@ -1085,14 +1085,14 @@ select + select {
 .container-camera .btn-submit .send-img{
     position: absolute;
     bottom: -12%;
-    right: 5%;
+    right: 10%;
     /* margin-top: 5px !important; */
     text-shadow: 2px 2px 3px rgba(0, 0, 0,0.5);
 }
 
 
 .container-camera input[type=checkbox]:checked ~ label #screenshotsContainer img:hover{
-    transform: scale(3);
+    transform: scale(2.5);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 

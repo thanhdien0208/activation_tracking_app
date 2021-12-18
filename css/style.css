@@ -1016,7 +1016,7 @@ select + select {
     /* font-size: 25px; */
     position: absolute;
     bottom: -12%;
-    left: 15%;
+    left: 5%;
 }
 
 .container-camera #video {
@@ -1286,7 +1286,7 @@ select + select {
     }
 
     .container-camera #video {
-        height: 540px;
+        height: 480px;
     }
     
     .container-camera .main {

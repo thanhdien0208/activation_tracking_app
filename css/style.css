@@ -1070,11 +1070,12 @@ select + select {
 }
 
 .container-camera .container-img {
-    position:absolute;
+    /* position:absolute;
     bottom: -100%;
-    left: 0%;
+    left: 0%; */
     width: 100%;
     text-align: center;
+    margin-top: 80px;
 }
 
 .container-camera .container-img img {

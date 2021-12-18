@@ -1071,7 +1071,7 @@ select + select {
 
 .container-camera .container-img {
     position:absolute;
-    bottom: -60%;
+    bottom: -100%;
     left: 0%;
     width: 100%;
     text-align: center;

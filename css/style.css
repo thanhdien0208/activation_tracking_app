@@ -1083,7 +1083,7 @@ select + select {
     object-fit: cover;
     /* margin-left: 5px; */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .container-camera .btn-submit .send-img{

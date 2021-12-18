@@ -1005,7 +1005,7 @@ select + select {
 
 .container-camera .boxvideo .icon-back-report {
     position: absolute;
-    top: 5%;
+    bottom: -8%;
     left: 15%;
 }
 
@@ -1013,6 +1013,7 @@ select + select {
     text-decoration: none;
     color: #1F6C2F;
     text-shadow: 2px 2px 3px rgba(0, 0, 0,0.5);
+    font-size: 25px;
 }
 
 .container-camera #video {
@@ -1031,7 +1032,7 @@ select + select {
 .container-camera .boximg .btns #btnScreenshot {
     position: absolute;
     top: 0;
-    left: 43%;
+    left: 39%;
     margin-top: 5px !important;
 }
 
@@ -1081,7 +1082,7 @@ select + select {
 .container-camera .btn-submit .send-img{
     position: absolute;
     bottom: -12%;
-    right: 15%;
+    right: 5%;
     /* margin-top: 5px !important; */
 }
 
@@ -1111,10 +1112,11 @@ select + select {
     border-radius: 50px;
     border: 1px solid #eee;
     outline: none;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     font-size: 24px;
     padding: 10px;
+    
 }
 
 .container-camera .is-success {

@@ -72,7 +72,7 @@ let img = document.getElementById('screenshot');
 if (!img) {
     img = document.createElement("img");
     img.id = 'screenshot';
-    img.style.width = '30%';
+    img.style.width = '100%';
 }
 canvas.width = video.videoWidth;
 canvas.height = video.videoHeight;

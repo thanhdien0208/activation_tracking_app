@@ -1070,8 +1070,8 @@ select + select {
 } */
 
 .container-camera .container-img {
-    position:fixed;
-    bottom: 0;
+    position:absolute;
+    bottom: -140%;
     width: 100%;
     text-align: center;
     margin-top: 80px;

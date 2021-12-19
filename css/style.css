@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Henikenbol;
     src: url(../fonts/heserbol.ttf);
@@ -7,7 +8,7 @@
     src: url(../fonts/heserreg.ttf);
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     padding: 0;
@@ -21,11 +22,11 @@ body{
 
 html {
     box-sizing: border-box;
-    font-family: Henikenreg, sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 select, option, input, button {
-    font-family: Henikenreg, sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 ::selection{
@@ -448,13 +449,13 @@ select, option, input, button {
     margin-bottom: 20px;
     font-weight: 600;
     outline: none;
-    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Roboto Slab', serif;
 }
 
 .main .form-login .input-user::placeholder {
     color: #111;
     font-weight: 600;
-    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Roboto Slab', serif;
 }
 
 /* .main .form-login .input-user:focus {
@@ -473,7 +474,7 @@ select, option, input, button {
     box-shadow: 1px 1px 5px #7DFF92;
     border-radius: 50px;
     outline: none;
-    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Roboto Slab', serif;
     color: #fff;
 }
 
@@ -489,7 +490,7 @@ select, option, input, button {
 .main .form-login .input-password::placeholder {
     color: #fff;
     font-weight: 600;
-    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Roboto Slab', serif;
 }
 
 /* .main .form-login .input-password:focus {

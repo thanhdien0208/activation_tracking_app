@@ -1290,11 +1290,6 @@ select + select {
         width: 100%;
     }
 
-    .container-camera {
-        height: 110vh;
-        overflow: visible;
-    }
-
     .container-camera #video {
         height: 400px;
     }

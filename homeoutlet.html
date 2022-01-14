@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,147 +11,150 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div class="app">
         <div class="container homeoutlet">
-                <!-- Header -->
-                <div class="row header">
-                    <div class="logo">
-                        <a href="homeoutlet.html"><img src="./img/logo-hnk.png" alt="logo"></a>
-                    </div>
-                    <div class="profile-user dropdown-nav">
-                        <a href="#" class="user-img" onclick="openTigerTp()">
-                            <img src="./img/Power-01.ico" alt="avatar" class="avatar-user">
-                        </a>
-                        <!-- <ul class="dropdown-menu">
+            <!-- Header -->
+            <div class="row header">
+                <div class="logo">
+                    <a href="homeoutlet.html"><img src="./img/logo-hnk.png" alt="logo"></a>
+                </div>
+                <div class="profile-user dropdown-nav">
+                    <a href="#" class="user-img" onclick="openTigerTp()">
+                        <img src="./img/Power-01.ico" alt="avatar" class="avatar-user">
+                    </a>
+                    <!-- <ul class="dropdown-menu">
                             <li class="nav-sub"><a href="#"><i class="ti-shift-left"></i> Logout</a></li>
                         </ul> -->
-                    </div>
                 </div>
-    
-                <!-- Main -->
-                <div class="row main">
-                    <p class="title">Chọn Outlet</p>
-                    <div class="main-top">
-                        <div class="search-box">
-                            <input type="search" placeholder="Tìm kiếm">
-                            <button type="submit"><i class="ti-search"></i></button>
-                        </div>
-                        <div class="filter-box">
-                            
-                            <select name="calc_shipping_provinces" required="">
+            </div>
+
+            <!-- Main -->
+            <div class="row main">
+                <p class="title">Chọn Outlet</p>
+                <div class="main-top">
+                    <div class="search-box">
+                        <input type="search" placeholder="Tìm kiếm">
+                        <button type="submit"><i class="ti-search"></i></button>
+                    </div>
+                    <p class="note">*Bạn có thể lọc outlet bằng cách chọn tỉnh thành, quận huyện và nhấn vào biểu tượng tìm kiếm</p>
+                    <div class="filter-box">
+
+                        <select name="calc_shipping_provinces" required="">
                                 <option value="">Tỉnh / Thành phố</option>
                             </select>
-                            <select name="calc_shipping_district" required="">
+                        <select name="calc_shipping_district" required="">
                             <option value="">Quận / Huyện</option>
                             </select>
-                            <input class="billing_address_1" name="" type="hidden" value="">
-                            <input class="billing_address_2" name="" type="hidden" value="">
-                        </div>
-                    </div>
-                    <div class="main-table">
-                        <div class="table-list">
-                            <a class="table-list_name" href="./outletdetails.html">
-                                Quán Nhậu Thiên Hương
-                            </a>
-                            <p class="table-list_id">
-                                ID : 123456
-                            </p>
-                            <p class="table-list_address">
-                                33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
-                            </p>
-                        </div>
-                        <div class="table-list">
-                            <a class="table-list_name" href="./outletdetails.html">
-                                Quán Nhậu Thiên Hương
-                            </a>
-                            <p class="table-list_id">
-                                ID : 123456
-                            </p>
-                            <p class="table-list_address">
-                                33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
-                            </p>
-                        </div>
-                        <div class="table-list">
-                            <a class="table-list_name" href="./outletdetails.html">
-                                Quán Nhậu Thiên Hương
-                            </a>
-                            <p class="table-list_id">
-                                ID : 123456
-                            </p>
-                            <p class="table-list_address">
-                                33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
-                            </p>
-                        </div>
-                        <div class="table-list">
-                            <a class="table-list_name" href="./outletdetails.html">
-                                Quán Nhậu Thiên Hương
-                            </a>
-                            <p class="table-list_id">
-                                ID : 123456
-                            </p>
-                            <p class="table-list_address">
-                                33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
-                            </p>
-                        </div>
-                        <div class="table-list">
-                            <a class="table-list_name" href="./outletdetails.html">
-                                Quán Nhậu Thiên Hương
-                            </a>
-                            <p class="table-list_id">
-                                ID : 123456
-                            </p>
-                            <p class="table-list_address">
-                                33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
-                            </p>
-                        </div>
-                        <div class="table-list">
-                            <a class="table-list_name" href="./outletdetails.html">
-                                Quán Nhậu Thiên Hương
-                            </a>
-                            <p class="table-list_id">
-                                ID : 123456
-                            </p>
-                            <p class="table-list_address">
-                                33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
-                            </p>
-                        </div>
-                        <div class="table-list">
-                            <a class="table-list_name" href="./outletdetails.html">
-                                Quán Nhậu Thiên Hương
-                            </a>
-                            <p class="table-list_id">
-                                ID : 123456
-                            </p>
-                            <p class="table-list_address">
-                                33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
-                            </p>
-                        </div>
-                        
+                        <input class="billing_address_1" name="" type="hidden" value="">
+                        <input class="billing_address_2" name="" type="hidden" value="">
                     </div>
                 </div>
+                <div class="main-table">
+                    <div class="table-list">
+                        <a class="table-list_name" href="./outletdetails.html">
+                                Quán Nhậu Thiên Hương
+                            </a>
+                        <p class="table-list_id">
+                            ID : 123456
+                        </p>
+                        <p class="table-list_address">
+                            33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
+                        </p>
+                    </div>
+                    <div class="table-list">
+                        <a class="table-list_name" href="./outletdetails.html">
+                                Quán Nhậu Thiên Hương
+                            </a>
+                        <p class="table-list_id">
+                            ID : 123456
+                        </p>
+                        <p class="table-list_address">
+                            33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
+                        </p>
+                    </div>
+                    <div class="table-list">
+                        <a class="table-list_name" href="./outletdetails.html">
+                                Quán Nhậu Thiên Hương
+                            </a>
+                        <p class="table-list_id">
+                            ID : 123456
+                        </p>
+                        <p class="table-list_address">
+                            33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
+                        </p>
+                    </div>
+                    <div class="table-list">
+                        <a class="table-list_name" href="./outletdetails.html">
+                                Quán Nhậu Thiên Hương
+                            </a>
+                        <p class="table-list_id">
+                            ID : 123456
+                        </p>
+                        <p class="table-list_address">
+                            33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
+                        </p>
+                    </div>
+                    <div class="table-list">
+                        <a class="table-list_name" href="./outletdetails.html">
+                                Quán Nhậu Thiên Hương
+                            </a>
+                        <p class="table-list_id">
+                            ID : 123456
+                        </p>
+                        <p class="table-list_address">
+                            33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
+                        </p>
+                    </div>
+                    <div class="table-list">
+                        <a class="table-list_name" href="./outletdetails.html">
+                                Quán Nhậu Thiên Hương
+                            </a>
+                        <p class="table-list_id">
+                            ID : 123456
+                        </p>
+                        <p class="table-list_address">
+                            33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
+                        </p>
+                    </div>
+                    <div class="table-list">
+                        <a class="table-list_name" href="./outletdetails.html">
+                                Quán Nhậu Thiên Hương
+                            </a>
+                        <p class="table-list_id">
+                            ID : 123456
+                        </p>
+                        <p class="table-list_address">
+                            33 Nguyễn Hữu Thọ, P. Tân Hưng, Q7, HCM
+                        </p>
+                    </div>
+
+                </div>
+            </div>
 
         </div>
     </div>
 
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    
+
     <script>
-        $(document).ready(function(){
+        $(document).ready(function() {
             // Show hide popover
-            $(".dropdown-nav").click(function(){
+            $(".dropdown-nav").click(function() {
                 $(this).find(".dropdown-menu").slideToggle("fast");
             });
         });
-        $(document).on("click", function(event){
+        $(document).on("click", function(event) {
             var $trigger = $(".dropdown-nav");
-            if($trigger !== event.target && !$trigger.has(event.target).length){
+            if ($trigger !== event.target && !$trigger.has(event.target).length) {
                 $(".dropdown-menu").slideUp("fast");
-            }            
+            }
         });
     </script>
     <script src="./js/districts.min.js"></script>
     <script src="./js/filter.js"></script>
 </body>
+
 </html>

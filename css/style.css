@@ -1,22 +1,21 @@
-
 @font-face {
     font-family: Henikenbol;
     src: url(../fonts/heserbol.ttf);
 }
+
 @font-face {
     font-family: Henikenreg;
     src: url(../fonts/heserreg.ttf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: inherit;
 }
 
-body{
+body {
     background: #72c788;
 }
 
@@ -25,23 +24,21 @@ html {
     font-family: 'Roboto Slab', serif;
 }
 
-select, option, input, button {
+select,
+option,
+input,
+button {
     font-family: 'Roboto Slab', serif;
 }
 
-::selection{
-    background:#05F22B;
-    color:#fff;
-  }
+::selection {
+    background: #05F22B;
+    color: #fff;
+}
 
 :root {
     --color-primary: #1F6C2F;
-    --color-bg: linear-gradient(135.28deg, 
-    rgba(12, 158, 49, 0.58) 16.86%, 
-    rgba(11, 149, 41, 0.63) 16.87%, 
-    rgba(8, 202, 62, 0.66) 37.54%, 
-    rgba(0, 203, 135, 0.89) 53.65%, 
-    rgba(11, 164, 47, 0.74) 66.05%);
+    --color-bg: linear-gradient(135.28deg, rgba(12, 158, 49, 0.58) 16.86%, rgba(11, 149, 41, 0.63) 16.87%, rgba(8, 202, 62, 0.66) 37.54%, rgba(0, 203, 135, 0.89) 53.65%, rgba(11, 164, 47, 0.74) 66.05%);
     --bg-btn: linear-gradient(90deg, #BAF4C4 8.8%, #76E051 94.19%);
     --shadow: linear-gradient(92.33deg, #95DAA4 8.23%, #F1F1F1 42%, #7DFF92 67.44%, #05F22B 92.44%);
 }
@@ -63,7 +60,7 @@ select, option, input, button {
     opacity: 0.8;
 }
 
-.btn + .btn {
+.btn+.btn {
     margin-left: 16px;
 }
 
@@ -118,7 +115,6 @@ select, option, input, button {
     position: relative;
     max-width: 480px;
     margin: 0 auto;
-    
 }
 
 .container {
@@ -136,7 +132,6 @@ select, option, input, button {
     overflow: auto;
 }
 
-
 .row {
     width: 100%;
 }
@@ -153,6 +148,7 @@ select, option, input, button {
     width: 200px;
     object-fit: cover;
 }
+
 
 /* main */
 
@@ -212,23 +208,23 @@ select, option, input, button {
     border-radius: 8px;
 }
 
-.main .box-check:hover input ~ .checkmark {
+.main .box-check:hover input~.checkmark {
     background-color: #ccc;
-  }
+}
 
-.main .box-check input:checked ~ .checkmark {
+.main .box-check input:checked~.checkmark {
     background-color: #05F22B;
-  }
+}
 
 .main .box-check .checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
+}
 
-.box-check input:checked ~ .checkmark:after {
+.box-check input:checked~.checkmark:after {
     display: block;
-  }
+}
 
 .main .box-check .checkmark:after {
     left: 9px;
@@ -240,17 +236,20 @@ select, option, input, button {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
+}
 
 .main .box-check .checkbox-link {
- color: #fff;
-}
-.main .box-check .checkbox-link:hover {
- color: #05F22B;
+    color: #fff;
 }
 
+.main .box-check .checkbox-link:hover {
+    color: #05F22B;
+}
+
+
 /* =========Modal========= */
-.modal{
+
+.modal {
     position: fixed;
     top: 0;
     right: 0;
@@ -272,14 +271,16 @@ select, option, input, button {
     border: 2px solid #05F22B;
     box-shadow: 1px 1px 5px #7DFF92;
     width: 300px;
-    max-width: calc(100% - 32px); /*cách vào 2 bên khi thu nhỏ */
+    max-width: calc(100% - 32px);
+    /*cách vào 2 bên khi thu nhỏ */
     min-height: 250px;
     position: relative;
     border-radius: 0 10px 0 10px;
-    animation: modalFadeIn ease 0.9s; /* gọi animation */
+    animation: modalFadeIn ease 0.9s;
+    /* gọi animation */
 }
 
-.modal-header i{
+.modal-header i {
     margin-right: 16px;
 }
 
@@ -290,7 +291,7 @@ select, option, input, button {
     color: #fff;
     padding: 8px;
     cursor: pointer;
-    background:rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 50%;
     border: 2px solid #fff;
 }
@@ -326,7 +327,9 @@ select, option, input, button {
     font-weight: bold;
 }
 
+
 /* Tạo keyframe cho animation */
+
 @keyframes modalFadeIn {
     from {
         opacity: 0;
@@ -354,11 +357,12 @@ select, option, input, button {
     line-height: 1.5;
 }
 
-.main .form-undo .desc-one{
+.main .form-undo .desc-one {
     color: #fff;
     margin-bottom: 30px;
 }
-.main .form-undo .desc-two{
+
+.main .form-undo .desc-two {
     color: #fff;
     width: 200px;
     margin: auto;
@@ -368,6 +372,7 @@ select, option, input, button {
     margin-top: 50px;
     text-align: center;
 }
+
 .main .form-undo .box-icon .icon-undo {
     text-decoration: none;
     color: #fff;
@@ -387,6 +392,7 @@ select, option, input, button {
     font-weight: 600;
 }
 
+
 /* Dropdown-nav */
 
 .header {
@@ -395,8 +401,8 @@ select, option, input, button {
 }
 
 .header .dropdown-menu {
-    min-width: 150px; /* Set width of the dropdown */
-
+    min-width: 150px;
+    /* Set width of the dropdown */
     background: #fff;
     display: none;
     position: absolute;
@@ -405,11 +411,11 @@ select, option, input, button {
     margin-top: -8px;
     list-style-type: none;
     border: 1px solid #1A5D1F;
-    border-radius:5px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.header.dropdown-menu .nav-sub{
+.header.dropdown-menu .nav-sub {
     display: block;
     font-weight: normal;
     padding: 8px;
@@ -431,6 +437,7 @@ select, option, input, button {
     padding: 10px;
     font-weight: 600;
 }
+
 
 /* Login Page*/
 
@@ -457,6 +464,7 @@ select, option, input, button {
     font-weight: 600;
     font-family: 'Roboto Slab', serif;
 }
+
 
 /* .main .form-login .input-user:focus {
     outline: none;
@@ -493,6 +501,7 @@ select, option, input, button {
     font-family: 'Roboto Slab', serif;
 }
 
+
 /* .main .form-login .input-password:focus {
     outline: none;
     box-shadow: 1px 1px 5px #7DFF92;
@@ -521,21 +530,24 @@ select, option, input, button {
     font-family: 'Roboto Slab', serif;
 }
 
+
 /* Success Page */
 
 .app .container .box-success {
     text-align: center;
     margin: 50% auto;
-    background:rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     width: 100%;
     padding: 20px;
     border-radius: 10px;
 }
-.app .container .box-success img{
+
+.app .container .box-success img {
     width: 150px;
     margin-bottom: 40px;
 }
-.app .container .box-success h3{
+
+.app .container .box-success h3 {
     font-size: 24px;
     color: #1F6C2F;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
@@ -552,12 +564,13 @@ select, option, input, button {
 }
 
 .app .container .next-outlet:hover {
-    color: #05F22B;  
+    color: #05F22B;
 }
 
 .app .container .next-outlet i {
     font-size: 15px;
 }
+
 
 /* Home Outlet Page*/
 
@@ -569,7 +582,7 @@ select, option, input, button {
     height: 100vh;
     max-width: 480px;
     background: #fff;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.5)
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5)
 }
 
 .homeoutlet .header {
@@ -586,7 +599,7 @@ select, option, input, button {
     width: 180px;
 }
 
-.homeoutlet .header .profile-user img{
+.homeoutlet .header .profile-user img {
     height: 60px;
     border-radius: 50%;
 }
@@ -595,6 +608,7 @@ select, option, input, button {
     margin-bottom: 20px;
     margin-top: -40px !important;
 }
+
 .homeoutlet .icon-back a {
     text-decoration: none;
 }
@@ -623,7 +637,7 @@ select, option, input, button {
     margin-top: -30px;
 }
 
-.homeoutlet .main .main-top{
+.homeoutlet .main .main-top {
     width: 100%;
 }
 
@@ -631,6 +645,7 @@ select, option, input, button {
     position: relative;
     width: 100%;
 }
+
 .homeoutlet .main .main-top .search-box input {
     padding: 10px;
     width: 100%;
@@ -639,17 +654,19 @@ select, option, input, button {
     border-radius: 5px;
     outline: 0;
     color: #fff;
-    
 }
 
 .homeoutlet .main .main-top .search-box input::placeholder {
     color: #fff;
 }
+
+
 /* .homeoutlet .main .main-top .search-box input:focus {
     border-radius: 5px;
     border: 1px solid #1F6C2F;
     outline: 1px solid #1F6C2F;
 } */
+
 .homeoutlet .main .main-top .search-box button {
     color: #fff;
     position: absolute;
@@ -661,6 +678,12 @@ select, option, input, button {
     background: transparent;
 }
 
+.homeoutlet .main .main-top .note {
+    color: red;
+    margin: 10px;
+    font-size: 14px;
+}
+
 .homeoutlet .main .main-top .filter-box {
     width: 100%;
     display: flex;
@@ -668,6 +691,7 @@ select, option, input, button {
     justify-content: space-around;
     margin-top: 15px;
 }
+
 .homeoutlet .main .main-top .filter-box select {
     width: 100%;
     padding: 8px;
@@ -677,7 +701,7 @@ select, option, input, button {
     outline: 0;
 }
 
-select + select {
+select+select {
     margin-left: 10px;
 }
 
@@ -705,7 +729,7 @@ select + select {
     font-weight: 700;
 }
 
-.homeoutlet .main .main-table .table-list  p {
+.homeoutlet .main .main-table .table-list p {
     font-size: 15px;
 }
 
@@ -738,7 +762,7 @@ select + select {
     font-size: 15px;
 }
 
-.homeoutlet .main .main-table .table-details .details-info i{
+.homeoutlet .main .main-table .table-details .details-info i {
     color: #1F6C2F;
     font-weight: 600;
 }
@@ -757,7 +781,7 @@ select + select {
 
 .homeoutlet .main .main-table .box-button .btn-close {
     padding: 8px 10px;
-    border-radius:5px;
+    border-radius: 5px;
     border: 1px solid #1F6C2F;
     background: transparent;
     cursor: pointer;
@@ -765,9 +789,10 @@ select + select {
     transition: all 0.5s;
     box-shadow: 1px 1px 3px #1F6C2F;
 }
+
 .homeoutlet .main .main-table .box-button .btn-checkin {
     padding: 8px 10px;
-    border-radius:5px;
+    border-radius: 5px;
     border: 1px solid #1F6C2F;
     background: #1F6C2F;
     cursor: pointer;
@@ -784,6 +809,7 @@ select + select {
 .homeoutlet .main .main-table .box-button .btn-checkin:hover {
     opacity: 0.8;
 }
+
 
 /* create oulet */
 
@@ -811,7 +837,7 @@ select + select {
 
 .create-outlet__footer .btn-add {
     padding: 8px 15px;
-    border-radius:5px;
+    border-radius: 5px;
     border: 1px solid #1F6C2F;
     background: #1F6C2F;
     cursor: pointer;
@@ -826,6 +852,7 @@ select + select {
 .create-outlet__footer i {
     color: #d02d2c;
 }
+
 
 /* Create Info Outlet */
 
@@ -842,7 +869,7 @@ select + select {
     margin: auto;
 }
 
-.create-info-outlet_body .form-create-info{
+.create-info-outlet_body .form-create-info {
     width: 300px;
     margin: 0 auto;
 }
@@ -858,6 +885,7 @@ select + select {
     margin-bottom: 20px;
     width: 300px;
 }
+
 .create-info-outlet_body .form-create-info .input-create-info input,
 .create-info-outlet_body .form-create-info .input-create-info select {
     width: 100%;
@@ -871,8 +899,6 @@ select + select {
     border: 1px solid #1F6C2F;
     outline: 1px solid #1F6C2F;
 }
-
-
 
 .create-info-outlet__footer {
     margin-top: 2rem;
@@ -893,6 +919,7 @@ select + select {
     text-align: center;
     font-size: 20px;
 }
+
 
 /* Create finish Outlet */
 
@@ -916,16 +943,20 @@ select + select {
     font-size: 16px;
     font-weight: 600;
 }
+
 .create-finish-outlet__content .create-finish-outlet_success img {
     width: 100px;
     object-fit: cover;
 }
+
 .create-finish-outlet__content .create-finish-outlet_success h3 {
     font-size: 20px;
     margin-top: 20px;
     color: #1F6C2F;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
+
+
 /* Report Page */
 
 .homeoutlet .main .report_title {
@@ -936,13 +967,13 @@ select + select {
     margin-bottom: 20px;
 }
 
-.homeoutlet .main .box-report  .btn-report {
+.homeoutlet .main .box-report .btn-report {
     background: #1F6C2F;
     font-weight: 600;
     font-size: 24px;
     /* color: #fff; */
-    padding: 30px; 
-    border-radius:5px;
+    padding: 30px;
+    border-radius: 5px;
     /* box-shadow: 2px 2px 5px #1F6C2F; */
     width: 100%;
     /* border: 1px solid #1F6C2F; */
@@ -954,6 +985,7 @@ select + select {
     background: rgba(31, 108, 47, 0.26);
     color: #666666;
 }
+
 
 /* .homeoutlet .main .box-report .btn-report:disabled,
 .homeoutlet .main .box-report .btn-report[disabled]{
@@ -976,8 +1008,9 @@ select + select {
 
 .homeoutlet .main .box-report a {
     color: #fff;
-    text-decoration: none;   
+    text-decoration: none;
 }
+
 
 /* Report case head */
 
@@ -1004,6 +1037,7 @@ select + select {
     position: relative;
 }
 
+
 /* .container-camera .boxvideo .icon-back-report {
     position: absolute;
     bottom: -8%;
@@ -1013,7 +1047,7 @@ select + select {
 .container-camera .boxvideo .icon-back-report a {
     text-decoration: none;
     color: #fff;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0,0.5);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     /* font-size: 25px; */
     position: absolute;
     bottom: -15%;
@@ -1052,6 +1086,7 @@ select + select {
     text-transform: capitalize;
 }
 
+
 /* .container-camera .video-screenshot {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -1064,14 +1099,16 @@ select + select {
     width: 100%;
 }
 
+
 /* =====Zoom IMG===== */
+
 
 /* .container-camera input[type=checkbox] {
     display: none;
 } */
 
 .container-camera .container-img {
-    position:absolute;
+    position: absolute;
     bottom: -160%;
     width: 100%;
     text-align: center;
@@ -1087,12 +1124,12 @@ select + select {
     margin-bottom: 20px;
 }
 
-.container-camera .btn-submit .send-img{
+.container-camera .btn-submit .send-img {
     position: absolute;
     bottom: -15%;
     right: 10%;
     /* margin-top: 5px !important; */
-    text-shadow: 2px 2px 3px rgba(0, 0, 0,0.5);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -1100,6 +1137,7 @@ select + select {
     transform: scale(2.5);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 } */
+
 
 /* =============== */
 
@@ -1125,7 +1163,6 @@ select + select {
     height: 60px;
     font-size: 24px;
     padding: 10px;
-    
 }
 
 .container-camera .is-success {
@@ -1139,6 +1176,7 @@ select + select {
     font-size: 16px;
     padding: 10px;
 }
+
 .container-camera .is-dark {
     background: #2f2f2f;
     color: #fff;
@@ -1149,6 +1187,7 @@ select + select {
     width: 40px;
     height: 40px;
 }
+
 .container-camera .is-warning {
     background: #ffdc7d;
     color: #111;
@@ -1158,6 +1197,7 @@ select + select {
     width: 40px;
     height: 40px;
 }
+
 .container-camera .is-danger {
     background: #1F6C2F;
     color: #fff;
@@ -1202,6 +1242,7 @@ select + select {
     font-size: 16px;
     text-align: left;
 }
+
 .listbox .table-list .td-total {
     font-size: 16px;
     background: rgba(118, 224, 81, 0.19);
@@ -1211,7 +1252,7 @@ select + select {
     padding: 15px;
 }
 
-.listbox .table-list .add-table span{
+.listbox .table-list .add-table span {
     color: #1F6C2F;
     font-weight: 600;
     border: 1px solid #1F6C2F;
@@ -1220,7 +1261,8 @@ select + select {
     background: transparent;
     cursor: pointer;
 }
-.listbox .table-list .add-table span:hover{
+
+.listbox .table-list .add-table span:hover {
     color: #fff;
     background: #1F6C2F;
     border: 1px solid #1F6C2F;
@@ -1230,6 +1272,7 @@ select + select {
     margin: 10px;
     color: #666;
 }
+
 .listbox .alert {
     margin: 10px;
     color: red;
@@ -1241,10 +1284,11 @@ select + select {
     text-decoration: none;
 }
 
+
 /* Footer */
 
 .footer {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     left: 0;
     margin-bottom: 20px;
@@ -1271,45 +1315,35 @@ select + select {
 }
 
 @media screen and (max-width: 512px) {
-
     .header {
         margin-top: 20px;
         margin-bottom: 40px;
     }
-
     .footer .footer-content {
         display: block;
         text-align: center;
     }
-
     .footer .footer-content img {
         margin-bottom: 5px;
     }
-
     .homeoutlet .main .main-top .filter-box {
         width: 100%;
     }
-
     .container-camera #video {
         height: 400px;
     }
-    
     .container-camera .main {
         margin-bottom: 20px;
     }
-
-    .create-info-outlet_body .form-create-info{
+    .create-info-outlet_body .form-create-info {
         width: 250px;
         margin: 0 auto;
     }
-
     .create-info-outlet_body .form-create-info .input-create-info {
         width: 80%;
         margin: 15px auto;
     }
-
     .create-info-outlet__footer .btn-confirm {
         margin-left: -10%;
     }
 }
-

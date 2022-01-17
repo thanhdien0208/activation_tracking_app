@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,40 @@
     <title>ACTIVATION TRACKING APP</title>
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./themify-icons.css">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div class="app">
         <div class="container">
-                <!-- Header -->
-                <div class="row header">
-                    <div class="logo">
-                        <a href="#"><img src="./img/logo-hnk.png" alt="logo"></a>
+            <!-- Header -->
+            <div class="row header">
+                <div class="logo">
+                    <a href="#"><img src="./img/logo-hnk.png" alt="logo"></a>
+                </div>
+            </div>
+            <!-- Main -->
+            <div class="row main">
+                <form action="#" class="form-login">
+                    <div class="box-center">
+                        <input type="text" class="input-user" placeholder="Tên Đăng Nhập"></input>
                     </div>
-                </div>
-                <!-- Main -->
-                <div class="row main">
-                    <form action="#" class="form-login">
-                        <div class="box-center">
-                            <input type="text" class="input-user" placeholder="Tên Đăng Nhập"></input>
-                        </div>
-                        <div class="box-center">
-                            <input id="password-field" type="password" class="input-password" placeholder="Mật Khẩu" name="password"></input>
-                            <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
-                        </div>
-                        
-                        <input type="submit" class="input-submit" value="Đăng nhập">
-                    </form>
-                    
-                </div>
+                    <div class="box-center">
+                        <input id="password-field" type="password" class="input-password" placeholder="Mật Khẩu" name="password"></input>
+                        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    </div>
 
-                <!-- Footer -->
-                <!-- <div class="row footer">
+                    <input type="submit" class="input-submit" value="Đăng nhập">
+                </form>
+
+            </div>
+
+            <!-- Footer -->
+            <!-- <div class="row footer">
                     <div class="footer-content">
                         <img src="./img/car-ban_white.png" alt="icon">
                         <img src="./img/women-alcohol_white.png" alt="icon">
@@ -54,14 +57,15 @@
     <script>
         $(".toggle-password").click(function() {
 
-        $(this).toggleClass("fa-eye fa-eye-slash");
-        var input = $($(this).attr("toggle"));
-        if (input.attr("type") == "password") {
-        input.attr("type", "text");
-        } else {
-        input.attr("type", "password");
-        }
+            $(this).toggleClass("fa-eye fa-eye-slash");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
         });
     </script>
 </body>
+
 </html>
